@@ -414,9 +414,16 @@ h2:after{
     font-family: cursive;
     border-radius: 30px;   
     background-color: #E87E04;
+    
+    height: 35px;
+    margin-top: 5px;
+    
 }
 
-
+.order_now a{
+    margin-top: -3px;
+    font-size: 90%;
+}
 
 
 
