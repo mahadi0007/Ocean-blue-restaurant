@@ -650,6 +650,10 @@ footer{
     float: right !important;
 }
 
+.top_nav_bar{
+     opacity: .7;
+}
+
 .order_now{
      
     color: #fff !important;
@@ -669,7 +673,14 @@ footer{
 
 
 
-
+.head_nav{
+    color: #fff !important;
+    background-image: linear-gradient(rgba(228, 228, 228, 0.08),rgba(47, 88, 100, 0.1));!important;
+    font-size: 85%; 
+    height: 52px; 
+    padding: 20px 0 20px 20px;
+    background-color: rgba(34, 34, 34, 0.48);
+}
 
 
 

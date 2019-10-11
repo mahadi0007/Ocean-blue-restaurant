@@ -10,8 +10,8 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         
         
-        <title>Profile</title>
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <title>header_nav</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/header_nav.css">
         
         <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
         
@@ -22,57 +22,42 @@
 
 <body>
     
-    <div class="container-fluid top_nav_bar profile_top" style="margin-bottom: 50px;">
-        <nav class="navbar fixed-top navbar-expand-sm bg-light navbar-light" style="background-image: -webkit-gradient(linear,left top, left bottom,from(#e4e4e4),to(#2f5864));
-    
-        background-image: linear-gradient(rgba(228, 228, 228, 0.08),rgba(47, 88, 100, 0.1));!important; font-size: 81%; height: 52px; padding: 20px 0 20px 20px">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Logo</a>
-
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">HOME</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">ABOUT US</a>
-    </li>
-
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        OUR MENU
-        </a>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Breakfast</a>
-            <a class="dropdown-item" href="#">Lunch</a>
-            <a class="dropdown-item" href="#">Dinner</a>
-        </div>
-    </li>
-      
-      
-      <li class="nav-item order_now">
-        <a class="nav-link" href="#">ORDER NOW</a>
-      </li>
-      
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Right</a></li>
-    </ul>
-      
-      <li class="navbar-text login_text">
-        <p>logged in</p>
-      </li>
-      
-      
-          
-      
-      
-      
-      
-  </ul>
-</nav>
-    
-    </div>
+    <nav class="navbar navbar-expand-lg  my-nav fixed-top navbar-dark head_nav">
+	  <a class="navbar-brand" href="#">logo</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		
+	  </button>
+	  <div class="collapse navbar-collapse">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		  </li>
+		  
+		  <li class="nav-item order_now">
+			<a class="nav-link" href="#">Orders
+			</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">View Chart
+			</a>
+		  </li>
+		  
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Contact Us</a>
+		  </li>
+            <li class="nav-item">
+			<a class="nav-link " href="#">About us</a>
+         </li>
+         <li class="nav-item">
+			<a class="nav-link " href="#">Profile</a>
+         </li>
+		  
+		  <li class="nav-item">
+			<a class="nav-link " href="#">Logout</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
     
     
     
