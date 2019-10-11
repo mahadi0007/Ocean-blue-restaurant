@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:#fff;
+    color: #555 !important;
+    font-family: 'lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+.top_nav_bar.profile_top:last-child{
+    float: right !important;
+}
+
+
+.order_now{
+     
+    color: #fff !important;
+    font-family: cursive;
+    border-radius: 30px;   
+    background-color: #E87E04;
+    
+    height: 35px;
+    margin-top: 5px;
+    
+}
+
+.order_now a{
+    margin-top: -3px;
+    font-size: 90%;
+}

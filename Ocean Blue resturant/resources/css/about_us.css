@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:#fff;
+    color: #555 !important;
+    font-family: 'lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+/*---------------------------*/
+
+
+
+
+
+
+.about_us{
+    
+    
+        
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.79)),to(rgba(0, 0, 0, 0.6))),url(img/about_us_page2.jpg);
+    
+    
+        
+    background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.6)),url(img/about_us_page2.jpg);
+    
+    
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.about_us_box{
+    padding-top: 150px;
+}
+
+
+blockquote{
+    position: absolute;
+    padding:150px;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 45px;
+    color: #fff;
+    font-weight: 600;
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/about_us_page_blckqout2.jpg);
+    
+    
+    border: 3px solid rgba(137, 133, 133, 0.44)
+    
+    
+    
+    
+}
+

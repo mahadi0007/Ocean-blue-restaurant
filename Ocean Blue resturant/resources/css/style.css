@@ -432,7 +432,7 @@ h2:after{
 }
 
 
-.order_now{
+/*.order_now{
      
     color: #fff !important;
     font-family: cursive;
@@ -448,7 +448,7 @@ h2:after{
     margin-top: -3px;
     font-size: 90%;
 }
-
+*/
 
 
 
@@ -651,9 +651,22 @@ footer{
     float: right !important;
 }
 
+.order_now{
+     
+    color: #fff !important;
+    font-family: cursive;
+    border-radius: 30px;   
+    background-color: #E87E04;
+    
+    height: 35px;
+    margin-top: 5px;
+    
+}
 
-
-
+.order_now a{
+    margin-top: -3px;
+    font-size: 90%;
+}
 
 
 
