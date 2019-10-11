@@ -642,9 +642,14 @@ footer{
 }
 
 
+/*-------------head-naavbar--------*/
 
+.login_status{
+}
 
-
+.top_nav_bar.profile_top:last-child{
+    float: right !important;
+}
 
 
 
