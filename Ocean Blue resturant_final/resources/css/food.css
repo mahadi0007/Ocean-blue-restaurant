@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:#fff;
+    color: #555 !important;
+    font-family: 'lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+/*---------------------------*/
+
+
+.product_page{
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.79)),to(rgba(0, 0, 0, 0.6))),url(img/product_page_back.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.6)),url(img/product_page_back.jpg);
+    
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    -webkit-box-shadow: 10000px 0px 10px 0px #888888;
+    
+    box-shadow: 10000px 0px 10px 0px #888888;
+    
+}
+
+
+
+
+.product_1_text{
+    padding-top: 200px;
+    color: #fff;
+   
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    font-size: 200%;
+    font-weight: bold;
+    
+    font-family:serif;
+      
+    
+    
+    position: relative;
+    
+    
+    -webkit-animation-name: text_1;
+    animation-name: text_1;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+
+@-webkit-keyframes text_1{
+     0%   {left:-1000px; top:0px;}
+    
+    25%  {left:100px; top:0px;}
+    
+    50%  {left:0px; top:0px;}
+    
+    75%  {left:0px; top:0px;}
+    
+    100% {left:0px; top:0px;}
+}
+
+
+
+@keyframes text_1{
+    0%   {left:-1000px; top:0px;}
+    
+    25%  {left:100px; top:0px;}
+    
+    50%  {left:0px; top:0px;}
+    
+    75%  {left:0px; top:0px;}
+    
+    100% {left:0px; top:0px;}
+    
+    
+}
+
+
+
+
+
+.product_2_text{
+    color: #fff;
+   
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    font-size: 100%;
+    
+    font-style: italic;
+    font-family: cursive;
+    
+    
+    position: relative;
+    -webkit-animation-name: text_2;
+    animation-name: text_2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+
+@-webkit-keyframes text_2{
+    0%   {left:1000px; top:0px;}
+    
+    25%  {left:-100px; top:0px;}
+    
+    50%  {left:0px; top:0px;}
+    
+    75%  {left:0px; top:0px;}
+    
+    100% {left:0px; top:0px;}
+}
+
+
+
+@keyframes text_2{
+    0%   {left:1000px; top:0px;}
+    
+    25%  {left:-100px; top:0px;}
+    
+    50%  {left:0px; top:0px;}
+    
+    75%  {left:0px; top:0px;}
+    
+    100% {left:0px; top:0px;}
+}
+
+
+/*---------------------------*/
+
+
+.card-body{
+    padding: 60px;
+}
+
+
+.card{
+    margin-top: 30px;
+}
+
+
+.card-segment{
+    padding-bottom: 80px;
+}

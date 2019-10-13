@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:#fff;
+    color: #555 !important;
+    font-family: 'lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+/*---------------------------*/
+
+
+
+.table_container
+{
+    padding-top: 20px;
+    width: 100%;
+    height: 80vh;
+}

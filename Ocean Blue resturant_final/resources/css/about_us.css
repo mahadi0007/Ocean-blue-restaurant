@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:#fff;
+    color: #555 !important;
+    font-family: 'lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+/*---------------------------*/
+
+
+
+
+
+
+.about_us{
+    
+    
+        
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.79)),to(rgba(0, 0, 0, 0.6))),url(img/about_us_page2.jpg);
+    
+    
+        
+    background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.6)),url(img/about_us_page2.jpg);
+    
+    
+    width: 100%;
+    height: 200vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.about_us_box{
+    padding-top: 80px;
+}
+
+
+blockquote{
+    
+    position: absolute;
+    padding:150px;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 45px;
+    color: #fff;
+    font-weight: 600;
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/about_us_page_blckqout2.jpg);
+    
+    
+    border: 3px solid rgba(137, 133, 133, 0.44)
+    
+    
+    
+    
+}
+
+/*--------------code import from style.css-------------*/
+
+
+/*------section-2------*/
+
+
+.section_2{
+    margin-top: 80px;
+    padding-top: 50px;
+   margin-bottom: 80px;
+    color: #d6d6d6;
+  
+    -webkit-box-shadow: 1px 0px 10px 0px #888888;
+   
+    box-shadow: 1px 0px 10px 0px #888888;
+    /*background-color: #949494;*/
+}
+
+
+h2{
+    font-size: 180%;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+    font-weight: 100 !important;
+    text-align: center;
+    letter-spacing: 1.5px;
+    
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color:#0dc7ff;
+    /*--how is this color = #E87E04*/
+    
+    content: " ";
+    width: 100px;
+    
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+.features_head_txt{
+    margin-top:50px;
+    margin-bottom: 30px;
+    padding: 0 180px;
+    font-size: 95%;
+}
+
+.features_txt{
+    font-size: 80%;
+    text-align: center;
+    
+}
+
+
+/*---for  all big icons*/
+.icon-big{
+    font-size: 285%;
+    color: #0dc7ff;
+    
+    margin-top: 7px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}

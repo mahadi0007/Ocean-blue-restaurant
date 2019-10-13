@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:#fff;
+    color: #555 !important;
+    font-family: 'lato','Arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+/*---------------------------*/
+
+
+.bg{
+    padding-top: 30px;
+	font-size: 80%;
+    background: url('../img/reg_back_2.jpg') ;
+	width: 100%;
+	height: 1000px;	
+    color: #000;
+	background-position: center;
+	
+	background-size: cover
+}
+
+
+.reg_form{
+    
+    font-weight: 100 !important;
+    color: #000;
+    background-color: white;
+    opacity: 0.85;
+	padding: 50px 80px !important;
+	
+	-webkit-box-shadow: 0px 0px 18px 7px rgba(0,0,0,0.35);
+
+	box-shadow: 0px 0px 18px 7px rgba(0,0,0,0.35);
+	
+	
+}
+
+.reg_form p{
+    font-weight: 600;
+}
+
+.form_head{
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+
+
+
+input,
+input::-webkit-input-placeholder{
+    font-size: 90% !important;
+}
+
+
+
+
+input,
+input:-ms-input-placeholder{
+    font-size: 90% !important;
+}
+
+
+
+
+input,
+input::placeholder{
+    font-size: 90% !important;
+}
+
+/*-------------------------------*/
+.form_head{
+    font-size: 100%;
+    margin-bottom: 0;
+}
